@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".b">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Escoge opcion pibe :)"
+        android:textColor="@color/black"
+        android:textSize="48sp"></TextView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/soylasuma"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="#10B617"
+        android:onClick="mas"
+
+        android:src="@drawable/lomas"
+        app:fabCustomSize="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:maxImageSize="60dp"
+        app:tint="@null" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/soygaleria"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/gale"
+        app:fabCustomSize="90dp"
+        app:layout_constraintBottom_toTopOf="@+id/soylasuma"
+        app:layout_constraintEnd_toEndOf="@+id/soylasuma"
+        app:layout_constraintStart_toStartOf="@+id/soylasuma"
+        app:maxImageSize="60dp"
+        app:tint="@null" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/elgenerosocompatidor"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/compartecolorw"
+        app:fabCustomSize="90dp"
+        app:layout_constraintBottom_toTopOf="@+id/soygaleria"
+        app:layout_constraintEnd_toEndOf="@+id/soygaleria"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/soygaleria"
+        app:maxImageSize="60dp"
+        app:tint="@null" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/soylacamara"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/camarabuena"
+        app:fabCustomSize="90dp"
+        app:layout_constraintBottom_toTopOf="@+id/elgenerosocompatidor"
+        app:layout_constraintEnd_toEndOf="@+id/elgenerosocompatidor"
+        app:layout_constraintStart_toStartOf="@+id/elgenerosocompatidor"
+        app:maxImageSize="60dp"
+        app:tint="@null" />
+
+</androidx.constraintlayout.widget.ConstraintLayout><!--//ESTA ES LA QUE TIENES QUE VER IMANOL-->

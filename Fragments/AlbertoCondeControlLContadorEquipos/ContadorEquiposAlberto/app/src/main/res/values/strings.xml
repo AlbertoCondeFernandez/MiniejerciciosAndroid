@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ContadorEquipos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="e1">Equipo 1 </string>
+    <string name="e2">Equipo 2</string>
+</resources>
