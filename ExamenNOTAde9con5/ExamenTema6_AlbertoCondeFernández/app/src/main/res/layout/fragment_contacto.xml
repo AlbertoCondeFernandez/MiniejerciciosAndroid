@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/estructura"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/centrarImagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imagenUsuario"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/foto_perfil"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+            </ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/nombreUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Nombre del Usuario"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/listaIconos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/telefono"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="20dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/ic_llamar"
+                android:backgroundTint="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/mensaje"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="20dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/ic_mensaje"
+                android:backgroundTint="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/videollamada"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="20dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/ic_videollamada"
+                android:backgroundTint="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </ImageButton>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/numero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="000000000">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tipoDispositivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Móvil"></TextView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

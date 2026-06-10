@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">ExamenTema6</string>
+
+    <string-array name="nombres">
+        <item>Sofía Martínez</item>
+        <item>Peluquería</item>
+        <item>Isabella García</item>
+        <item>Daniel Rodríguez</item>
+        <item>Valeria López</item>
+        <item>Javier Pérez</item>
+        <item>Casa</item>
+        <item>Miguel Morales</item>
+        <item>Carla Ruiz</item>
+        <item>Pablo Díaz</item>
+        <item>Martina Alonso</item>
+        <item>Álvaro Gutiérrez</item>
+        <item>Elena Romero</item>
+        <item>Adrián Molina</item>
+        <item>Paula Torres</item>
+        <item>David Castro</item>
+        <item>Sara Vargas</item>
+        <item>Hugo Jiménez</item>
+        <item>Clara Gil</item>
+        <item>Mario Herrera</item>
+    </string-array>
+
+    <string-array name="numeros">
+        <item>600123456</item>
+        <item>901987654</item>
+        <item>602555555</item>
+        <item>603111222</item>
+        <item>604777888</item>
+        <item>605333444</item>
+        <item>906999000</item>
+        <item>607555666</item>
+        <item>608123789</item>
+        <item>609789123</item>
+        <item>610456789</item>
+        <item>611000111</item>
+        <item>612666777</item>
+        <item>613222333</item>
+        <item>614888999</item>
+        <item>615555000</item>
+        <item>616123987</item>
+        <item>617789456</item>
+        <item>618333222</item>
+        <item>619999888</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
